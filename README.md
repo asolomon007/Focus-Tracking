@@ -14,8 +14,10 @@ My project uses a custom model retrained with the resnet18 network. I have three
 
 - The piezoelectric buzzer must be connected to the Jetson Nano's GPIO pin 12 which has an output of 5V, and grounded to any ground pin.
 
-- 
+- Before Running:
+  - Jetson Inference must be downloaded
+  - Ensure that your settings allow control of the GPIO Pins
 
-2. Make sure to include any required libraries that need to be installed for your project to run.
-
+– Required Files:
+  - Focus-Tracking.py, labels.txt, resnet18.onnx
 https://youtu.be/i8LZ_Jxxv1Qhttps://youtu.be/i8LZ_Jxxv1Q
