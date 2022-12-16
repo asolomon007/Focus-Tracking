@@ -19,5 +19,8 @@ My project uses a custom model retrained with the resnet18 network. I have three
   - Ensure that your settings allow control of the GPIO Pins
 
 – Required Files:
-  - Focus-Tracking.py, labels.txt, resnet18.onnx
+  - focus-tracking.py, labels.txt, resnet18.onnx and TrackingDataset Folder
+  
+To Run: within the folder of this project, run: $ python3 focus-tracking.py
+  
 https://youtu.be/i8LZ_Jxxv1Qhttps://youtu.be/i8LZ_Jxxv1Q
